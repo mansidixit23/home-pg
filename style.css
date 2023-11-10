@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.contain-elements {
+    max-width: 1280px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+ 
+/* Navbar Styles */
+.Navbar {
+    background-color: white;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.nav {
+    display: block;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+}
+
+.container-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(141, 140, 174);
+    height: 12vh;
+}
+.right_sidebar{
+    padding-left: 30%;
+}
+.right_sidebar a{
+    padding-right: 30%;
+    color: cornflowerblue;
+}
+.right_sidebar .container1 h1{
+    padding-right: 30%;
+}
+.right_sidebar .container1{
+    background-color: steelblue;
+    
+   
+    }
+
+
+.hero-msg {
+    display: flex;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    width: calc(100% - 20px);
+    margin-bottom: 25px;
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    right: 10px;
+}
+
+.hero-msg p {
+    padding: 10px;
+}
+
+.hero-msg a {
+    color: #007185;
+}
+
+@media (max-width: 768px) {
+    .nav-links {
+        gap: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+.dropbtn {
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .heroBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 7px;
+    position: relative;
+  }
+  .heroBoxImg{
+    margin-top: -30px;
+  }
